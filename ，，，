@@ -1,0 +1,12 @@
+compile.batpip install -r requirements.txt
+pip install nuitkausage: LpkUnpacker.py [-h] [-v] [-c CONFIG] target_lpk output_dir
+
+positional arguments:
+  target_lpk            path to lpk file
+  output_dir            directory to store result
+
+options:
+  -h, --help            show this help message and exit
+  -v, --verbosity       increase output verbosity
+  -c CONFIG, --config CONFIG
+                        config.jsonpython LpkUnpacker.py <args>python LpkUnpackerGUI.py
